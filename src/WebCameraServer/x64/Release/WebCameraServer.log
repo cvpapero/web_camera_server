@@ -1,0 +1,41 @@
+﻿  base64.cpp
+base64.cpp(23): warning C4267: '=' : 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+base64.cpp(128): warning C4267: '=' : 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+  main.cpp
+c:\users\ikegami\documents\visual studio 2013\projects\webcameraserver\include\msgpack/vrefbuffer.hpp(52): warning C4267: '引数' : 'size_t' から 'unsigned int' に変換しました。データが失われているかもしれません。
+c:\users\ikegami\documents\visual studio 2013\projects\webcameraserver\include\msgpack/vrefbuffer.hpp(59): warning C4267: '引数' : 'size_t' から 'unsigned int' に変換しました。データが失われているかもしれません。
+c:\users\ikegami\documents\visual studio 2013\projects\webcameraserver\include\msgpack\pack_template.h(746): warning C4267: '引数' : 'size_t' から 'unsigned int' に変換しました。データが失われているかもしれません。
+c:\users\ikegami\documents\visual studio 2013\projects\webcameraserver\include\msgpack\type/map.hpp(120): warning C4267: '引数' : 'size_t' から 'unsigned int' に変換しました。データが失われているかもしれません。
+          c:\users\ikegami\documents\visual studio 2013\projects\webcameraserver\include\msgpack/object.hpp(198) : コンパイルされたクラスの テンプレート のインスタンス化 'msgpack::packer<Stream> &msgpack::operator <<<Stream,std::string,MultiData>(msgpack::packer<Stream> &,const std::map<std::string,MultiData,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>> &)' の参照を確認してください
+          with
+          [
+              Stream=msgpack::sbuffer
+  ,            _Kty=std::string
+  ,            _Ty=MultiData
+          ]
+          c:\users\ikegami\documents\visual studio 2013\projects\webcameraserver\include\msgpack\pack.hpp(142) : コンパイルされたクラスの テンプレート のインスタンス化 'msgpack::packer<Stream> &msgpack::packer<Stream>::pack<T>(const T &)' の参照を確認してください
+          with
+          [
+              Stream=msgpack::sbuffer
+  ,            T=std::map<std::string,MultiData,std::less<std::string>,std::allocator<std::pair<const std::string,MultiData>>>
+          ]
+          c:\users\ikegami\documents\visual studio 2013\projects\webcameraserver\include\msgpack\pack.hpp(142) : コンパイルされたクラスの テンプレート のインスタンス化 'msgpack::packer<Stream> &msgpack::packer<Stream>::pack<T>(const T &)' の参照を確認してください
+          with
+          [
+              Stream=msgpack::sbuffer
+  ,            T=std::map<std::string,MultiData,std::less<std::string>,std::allocator<std::pair<const std::string,MultiData>>>
+          ]
+          main.cpp(46) : コンパイルされたクラスの テンプレート のインスタンス化 'void msgpack::pack<msgpack::sbuffer,std::map<std::string,MultiData,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>>(Stream &,const T &)' の参照を確認してください
+          with
+          [
+              _Kty=std::string
+  ,            _Ty=MultiData
+  ,            Stream=msgpack::sbuffer
+  ,            T=std::map<std::string,MultiData,std::less<std::string>,std::allocator<std::pair<const std::string,MultiData>>>
+          ]
+  Util.cpp
+Util.cpp(49): warning C4267: '=' : 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+Util.cpp(61): warning C4267: '初期化中' : 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+  コード生成しています。
+  コード生成が終了しました。
+  WebCameraServer.vcxproj -> C:\Users\ikegami\Documents\Visual Studio 2013\Projects\WebCameraServer\x64\Release\WebCameraServer.exe
